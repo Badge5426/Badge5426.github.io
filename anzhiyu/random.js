@@ -1,4 +1,4 @@
-var posts=["2024/10/17/这是我的第一篇博客文章/","2024/10/18/智能生活/","2024/10/18/dify-chat接入hexo/","2024/10/16/hello-world/"];function toRandomPost(){
+var posts=["2024/10/17/这是我的第一篇博客文章/","2024/10/25/dify应用开发平台/","2024/10/18/智能生活/","2024/10/18/dify-chat接入hexo/","2024/10/16/hello-world/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
