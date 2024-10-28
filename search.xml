@@ -26,10 +26,16 @@
       
       <categories>
           
-          <category> hexo，github </category>
+          <category> hexo </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> hexo，博客，网站 </tag>
+            
+        </tags>
       
     </entry>
     
