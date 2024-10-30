@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>35元天翼云部署个人网站！</title>
+      <link href="/posts/d1a3.html"/>
+      <url>/posts/d1a3.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="35元一年天翼云服务器！"><a href="#35元一年天翼云服务器！" class="headerlink" title="35元一年天翼云服务器！"></a>35元一年天翼云服务器！</h1><p>2核2G的云服务器能做什么？</p><p>2核2G的云服务器适合执行一些轻量级的任务和应用。以下是一些2核2G云服务器可以处理的常见用途：</p><ol><li><p><strong>个人网站或博客</strong>：对于小型个人网站或博客来说，2核2G的配置已经足够。</p></li><li><p><strong>小型企业网站</strong>：对于流量不是非常高的小型企业网站，这样的配置也能满足需求。</p></li><li><p><strong>开发和测试环境</strong>：可以用于开发和测试应用程序，尤其是对于初创公司或者个人开发者来说，可以节省成本。</p></li><li><p><strong>轻量级应用</strong>：如小型CRM系统、ERP系统等，只要用户量不大，这样的配置可以满足需求。</p></li><li><p><strong>数据库服务器</strong>：对于小型数据库，2核2G的服务器可以作为数据库服务器使用。</p></li><li><p><strong>邮件服务器</strong>：可以搭建一个小型的邮件服务器，处理日常的邮件收发。</p></li><li><p><strong>文件存储和共享</strong>：作为内部文件服务器，用于文件的存储和共享。</p></li><li><p><strong>轻量级游戏服务器</strong>：对于玩家数量不多的轻量级在线游戏，2核2G的服务器可以作为游戏服务器。</p></li><li><p><strong>虚拟私人网络（VPN）</strong>：可以搭建一个VPN服务器，用于数据加密和远程访问。</p></li><li><p><strong>轻量级内容管理系统（CMS）</strong>：如WordPress等，可以用于搭建内容管理系统。</p></li><li><p><strong>教育和学习</strong>：学生和教师可以用于学习编程、搭建实验环境等。</p></li><li><p><strong>物联网（IoT）项目</strong>：对于数据量不大的IoT项目，可以作为数据处理和存储的服务器。</p></li></ol><p>需要注意的是，2核2G的服务器在处理高并发、高计算量或者大数据处理时可能会显得力不从心，因此对于大型网站、复杂的应用程序、高流量的在线服务等场景，可能需要更高性能的服务器配置。</p><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030113712227.png" alt="image-20241030113712227"></p><ul><li>配置选择：安装ubuntn系统</li></ul><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030135629690.png" alt="image-20241030135629690"></p><ul><li>创建成功</li></ul><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030140105837.png" alt="image-20241030140105837"></p><ul><li>重置一下密码，然后远程登陆</li></ul><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030140952535.png" alt="image-20241030140952535"></p><ul><li>输入root跟密码登陆</li></ul><p>![image-20241030141934531](&#x2F;Users&#x2F;badge&#x2F;Library&#x2F;Application Support&#x2F;typora-user-images&#x2F;image-20241030141934531.png)</p><ul><li>ssh指令安装1panel</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh &amp;&amp; sudo bash quick_start.sh</span><br></pre></td></tr></table></figure><ul><li>一路回车，安装成功</li></ul><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030143028737.png" alt="image-20241030143028737"></p><ul><li>安全组添加规则，开放端口</li></ul><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030145519123.png" alt="image-20241030145519123"></p><ul><li>公网ip+端口号&#x2F;xxxx  访问</li></ul><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030145638359.png" alt="image-20241030145638359"></p><ul><li>登陆成功</li></ul><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030145402800.png" alt="image-20241030145402800"></p><ul><li>接下来按照步骤安装应用</li></ul><h2 id="1-应用商店找到OpenResty安装"><a href="#1-应用商店找到OpenResty安装" class="headerlink" title="1.应用商店找到OpenResty安装"></a>1.应用商店找到OpenResty安装</h2><h2 id="2-应用商店找到MySQL安装"><a href="#2-应用商店找到MySQL安装" class="headerlink" title="2.应用商店找到MySQL安装"></a>2.应用商店找到MySQL安装</h2><h2 id="3-应用商店找到Halo安装"><a href="#3-应用商店找到Halo安装" class="headerlink" title="3.应用商店找到Halo安装"></a>3.应用商店找到Halo安装</h2><ul><li>Halo安装需要勾选外部端口访问，记住数据库</li></ul><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030151458969.png" alt="image-20241030151458969"></p><ul><li>MySQL安装需要勾选外部端口访问</li></ul><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030152224853.png" alt="image-20241030152224853"></p><ul><li>全部安装完成</li></ul><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030152521473.png" alt="image-20241030152521473"></p><ul><li>halo需要去安全组开放8090端口</li><li>安装成功！</li></ul><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030152824356.png" alt="image-20241030152824356"></p><p>自己设置一下站点标题跟用户密码，就可以登陆自己的站点啦！</p><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030153210212.png" alt="image-20241030153210212"></p><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/image-20241030153224641.png" alt="image-20241030153224641"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网站，博客，服务器 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 便宜，halo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>阿里云免费试用三个月</title>
       <link href="/posts/4c4f.html"/>
       <url>/posts/4c4f.html</url>
