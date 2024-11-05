@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> hexo </category>
+          <category> hexo，知识分享 </category>
           
       </categories>
       
@@ -32,7 +32,7 @@
       
       <categories>
           
-          <category> 网站，博客，服务器 </category>
+          <category> 网站，博客，服务器，知识分享 </category>
           
       </categories>
       
@@ -57,7 +57,7 @@
       
       <categories>
           
-          <category> 服务器 </category>
+          <category> 服务器，知识分享 </category>
           
       </categories>
       
@@ -82,7 +82,7 @@
       
       <categories>
           
-          <category> 知识库 </category>
+          <category> 知识库，知识分享 </category>
           
       </categories>
       
@@ -107,7 +107,7 @@
       
       <categories>
           
-          <category> hexo </category>
+          <category> hexo，知识分享 </category>
           
       </categories>
       
@@ -132,7 +132,7 @@
       
       <categories>
           
-          <category> dify </category>
+          <category> dify，资讯 </category>
           
       </categories>
       
@@ -176,7 +176,7 @@
       
       <categories>
           
-          <category> dify </category>
+          <category> dify，知识分享 </category>
           
       </categories>
       
@@ -198,6 +198,12 @@
       
         <content type="html"><![CDATA[<h1 id="为什么要搭建个人博客"><a href="#为什么要搭建个人博客" class="headerlink" title="为什么要搭建个人博客"></a>为什么要搭建个人博客</h1><p>搭建个人博客可以有很多好处，就像是拥有了一个自己的小天地，可以随心所欲地表达自己，分享想法，还可以带来一些额外的收获：</p><ol><li><strong>自我表达</strong>：博客是表达自己想法、感受和经历的好地方。你可以写任何你感兴趣的东西，无论是日记、故事、教程还是对某个话题的深入分析。</li><li><strong>分享知识</strong>：如果你对某个领域有所了解，通过博客分享你的知识可以帮助别人，同时也能巩固自己的理解。</li><li><strong>建立个人品牌</strong>：博客可以帮助你建立个人品牌，展示你的专业技能和兴趣，对于职业发展很有帮助。</li><li><strong>记录学习过程</strong>：学习新东西时，把学习过程和心得记录下来，可以作为自己的知识库，随时回顾。</li><li><strong>交流和反馈</strong>：博客让你的想法公开，可以吸引到志同道合的人，通过评论和交流获得反馈，促进思考。</li><li><strong>提高写作技巧</strong>：经常写博客可以锻炼你的写作能力，这对于个人发展和职业发展都是一项宝贵的技能。</li><li><strong>SEO和在线可见性</strong>：通过博客，你可以优化内容以提高搜索引擎排名，增加在线可见性，甚至吸引潜在的客户或雇主。</li><li><strong>实验和创新</strong>：博客是一个安全的地方，可以尝试新的想法，测试不同的内容和格式，看看哪些最受欢迎。</li><li><strong>赚钱</strong>：虽然不是主要目的，但有些博主通过广告、赞助内容、会员计划或销售产品来赚钱。</li><li><strong>乐趣和满足感</strong>：对很多人来说，写博客本身就是一件很有乐趣的事情，看到自己的博客一天天成长，会有很大的满足感。</li></ol><p>总之，搭建个人博客可以是一段很有趣的旅程，让你在表达自己的同时，也能获得成长和连接。</p><h1 id="怎么选择框架"><a href="#怎么选择框架" class="headerlink" title="怎么选择框架"></a>怎么选择框架</h1><p>如果你想快速搭建一个简单、安全的博客，不需要太多花哨的功能，而且喜欢自己写代码，那么Hexo就很适合你。它能让你用Markdown写文章，生成静态网页，部署起来也简单，还不用操心服务器和数据库的事。</p><p>但如果你希望博客功能更丰富，比如有评论、用户登录这些，或者是你不太想自己折腾技术细节，那WordPress可能更方便。它就像一个现成的博客平台，有很多插件可以用，管理起来也直观，但你得自己找个地方托管，可能还得花点钱。</p><p>简单来说，Hexo适合技术范儿，喜欢自己掌控一切的；WordPress适合想要开箱即用，功能多且方便管理的。</p><h1 id="Hexo是什么"><a href="#Hexo是什么" class="headerlink" title="Hexo是什么"></a>Hexo是什么</h1><p>这个在github上面的项目地址<a href="https://github.com/hexojs/hexo">https://github.com/hexojs/hexo</a></p><p>Hexo 是一个快速、简洁且高效的博客框架，它允许用户使用 Markdown（或其他标记语言）编写文章，并能迅速生成静态网页。Hexo 利用 Node.js 的强大功能，提供了超快的生成速度，支持 GitHub Flavored Markdown 以及一键部署到 GitHub Pages、Heroku 或其他平台。此外，Hexo 拥有一个强大的插件系统，可以与多种模板引擎和现有的 NPM 包集成，如 EJS、Pug、Nunjucks、Babel、PostCSS、Less&#x2F;Sass 等，从而实现功能的无限扩展。</p><p>Hexo 的基本使用流程包括安装 Hexo  CLI、初始化博客项目、安装依赖、启动本地服务器以及部署到远程平台。用户可以通过简单的命令行操作来管理文章的创建、编辑、生成和发布。Hexo 还支持创建草稿、页面和使用不同的布局，提供了灵活的写作和个性化选项。</p><p>Hexo 的一些关键特性包括：</p><ul><li><strong>超快速度</strong>：Node.js 驱动的生成速度，能在几秒内构建数百个页面。</li><li><strong>Markdown 支持</strong>：支持 GitHub Flavored Markdown 以及大多数 Octopress 插件。</li><li><strong>一键部署</strong>：支持一键部署到 GitHub Pages、Heroku 或其他平台。</li><li><strong>插件系统</strong>：强大的 API 支持，可以轻松与现有的 NPM 包集成，支持多种模板引擎。</li></ul><p>安装 Hexo 的基本步骤如下：</p><ol><li>安装 Node.js 和 Git。</li><li>使用 npm 安装 Hexo CLI：<code>npm install -g hexo-cli</code>。</li><li>初始化一个新的 Hexo 项目：<code>hexo init blog</code>，其中 <code>blog</code> 是项目的文件夹名称。</li><li>进入项目目录：<code>cd blog</code>。</li><li>安装项目依赖：<code>npm install</code>。</li><li>启动本地服务器预览博客：<code>hexo server</code>。</li></ol><p>Hexo 还提供了丰富的文档和社区支持，帮助用户解决在使用过程中遇到的问题。</p>]]></content>
       
+      
+      <categories>
+          
+          <category> 资讯 </category>
+          
+      </categories>
       
       
     </entry>
