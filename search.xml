@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>基于typecho的个人博客搭建</title>
+      <link href="/posts/ede7.html"/>
+      <url>/posts/ede7.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="基于typecho的个人博客搭建"><a href="#基于typecho的个人博客搭建" class="headerlink" title="基于typecho的个人博客搭建"></a>基于typecho的个人博客搭建</h1><p>​        Typecho是一款专为博客作者设计的轻量级、高性能的开源PHP博客平台，以其简洁直观的操作界面、原生Markdown支持、丰富的插件和主题生态、优秀的SEO优化特性、多语言兼容、强大的社区支持和安全性保障而受到青睐，适合追求极简主义和高效管理的个人或小型社区使用，无论是技术新手还是资深开发者，都能快速上手并定制出个性化的博客空间。</p><hr><ul><li>1panel商城直接安装，记得去安全组开放端口</li></ul><p><img src="https://c05ymueknd0.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmM4ZjZiZmJlYTYxNjkyNTkzNjQ1MzQ2YzExNTRhN2JfOUczUERHUWdRSTd4VzdXYUw1aml0NGp2TGpMb0x4cjRfVG9rZW46R1dUMWJBN0xLb0gyajJ4N3QzUWNxTks0bk5iXzE3MzIzNDcwMzA6MTczMjM1MDYzMF9WNA" alt="img"></p><p>安装成功，登陆密码在日志里能看到，用户名：typecho 密码：typecho</p><p><img src="https://c05ymueknd0.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjA1YzU0MzIxYzIzYWFjNTQ4YWY1ZWUzNWY2OTM1NGZfVWxxZVBqSEo0VWRjZ25EM0hianpacEZ6Q2U4dFA5dEFfVG9rZW46UDJTZ2JqcjU2b3J6b014VHh5NGM2Z0dPblFlXzE3MzIzNDcwMzA6MTczMjM1MDYzMF9WNA" alt="img"></p><ul><li>安装timeplus主题，git地址：<a href="https://github.com/zhheo/TimePlus">https://github.com/zhheo/TimePlus</a></li></ul><p><img src="https://c05ymueknd0.feishu.cn/space/api/box/stream/download/asynccode/?code=NzhmNGJhYmMzZTkyYWFmMDhhNWIwMmQ0ZDZlNTU0NjFfZlF6YUhyT2JsMXdiV1E1c3I5cVNydHJMMTYzclRVbkZfVG9rZW46SHhDQmJjRDIzbzdDUE94NnBqWmNiMnlqbnFnXzE3MzIzNDcwMzA6MTczMjM1MDYzMF9WNA" alt="img"></p><p>这是作者的教程：<a href="https://github.com/zhheo/TimePlus/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E4%B8%8A%E6%89%8B">第一次上手</a></p><h2 id="找到usr-themes文件夹上传并解压timeplus"><a href="#找到usr-themes文件夹上传并解压timeplus" class="headerlink" title="找到usr&#x2F;themes文件夹上传并解压timeplus"></a>找到usr&#x2F;themes文件夹上传并解压timeplus</h2><p><img src="https://c05ymueknd0.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2M5NzRhMmRiMTJlZTk4OWVlYzNmYmUzYjM0YmVmZTRfUkVxekJBNjQ4MGlQcXV3dmxsWERmcDlUdFZqR2RpVHhfVG9rZW46UjBmWWI2OFNMb1R5VHl4V25qUWNaajJobjNiXzE3MzIzNDcwMzA6MTczMjM1MDYzMF9WNA" alt="img"></p><ul><li>这是我上传的两个主题，一定要去掉版本号只留文件名字才可以正常使用！！</li></ul><p><img src="https://c05ymueknd0.feishu.cn/space/api/box/stream/download/asynccode/?code=ZmQ0MzM0N2MwYzQ0M2QxMDQ0MGU0ZjhiYjZhMTY2Nzdfem1LdU95Tjl5QkMxSmNLWWR6aGMwQ0l6dFliS3dGNlVfVG9rZW46SlBVZmJCYmpzb1hwa1h4TlNFMmNQYlFibmdiXzE3MzIzNDcwMzA6MTczMjM1MDYzMF9WNA" alt="img"></p><h2 id="找到控制台-启动"><a href="#找到控制台-启动" class="headerlink" title="找到控制台-启动"></a>找到控制台-启动</h2><p><img src="https://c05ymueknd0.feishu.cn/space/api/box/stream/download/asynccode/?code=OWU0YmE2ZDY3YjE0OTgyMWIwMzJlMWQ4NTU4NzQxMDdfOFY1VnlKblhXOVNzamZiV3dncjYyQWNZT05leHdhUFdfVG9rZW46Qmo0UWJBdmFrb0hHTXN4ZEtwUGNxM2hBbjNjXzE3MzIzNDcwMzA6MTczMjM1MDYzMF9WNA" alt="img"></p><h2 id="创建带图片的文章"><a href="#创建带图片的文章" class="headerlink" title="创建带图片的文章"></a><strong>创建带图片的文章</strong></h2><p>在Typecho后台导航栏点击【撰写】，在自定义字段中填写图片地址。并填写文章标题和内容，即对应为图片的标题和简介。</p><h2 id="开放无限滚动"><a href="#开放无限滚动" class="headerlink" title="开放无限滚动"></a><strong>开放无限滚动</strong></h2><p>在Typecho后台导航栏的【设置】-&gt;【阅读】调整每页文章显示替换为 999</p><h2 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a><strong>配置主题</strong></h2><p>在Typecho后台导航栏的【控制台】-&gt;【外观】中点击【设置外观】选项卡</p><p><img src="https://c05ymueknd0.feishu.cn/space/api/box/stream/download/asynccode/?code=MTQ3MjE5YjE3NmQ4MmQ5MzIyYTk2NmM0Y2U0MzQ3NmFfa203R24zYkFhdko1Q3pINFNTQTE2b3l5enl1b1hsdkdfVG9rZW46VG9SZGJWa3Uyb29jTTN4a3B4S2NWTjJobkRmXzE3MzIzNDcwMzA6MTczMjM1MDYzMF9WNA" alt="img"></p><h2 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a><strong>大功告成</strong></h2><p>前往你的Typecho主页查看这个全新的主题吧！</p><h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p><img src="https://c05ymueknd0.feishu.cn/space/api/box/stream/download/asynccode/?code=NGYyNWIyZWI1ZjU0ZjgzM2RmN2EyNGM3MTI3ZWUzOGJfWThOT2F0ZVFrN2JmZ0xCUFJrVU8wS3lBakE1NkpiQVhfVG9rZW46T3RJRGJqQUk1b250U3p4SXFZTGNuUndUbnBlXzE3MzIzNDcwMzA6MTczMjM1MDYzMF9WNA" alt="img"></p><img src="https://c05ymueknd0.feishu.cn/space/api/box/stream/download/asynccode/?code=NjdmZDYxNzUzM2Y3YzM0NzIxM2EyMGMzNjA0M2E5NWVfckNWSkppcmlvRXpjYXVpU3NuT3lEemtycHF2WFBkenZfVG9rZW46RnE3SGJSTGlTb3dDTmV4N0ZlTGNyaGJPbnhjXzE3MzIzNDcwMzA6MTczMjM1MDYzMF9WNA" alt="img" style="zoom:50%;" /><hr><p style="font-size: small; text-align: center;">  &copy; 2024 版权所有。未经允许，禁止转载。<br>  <strong>免责声明：</strong>部分资料和图片来源于网络，如有侵权，请联系删除。<br>  联系方式：微信[xiafeiysbg]</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>白嫖华为云最高可达一年</title>
       <link href="/posts/c468.html"/>
       <url>/posts/c468.html</url>
