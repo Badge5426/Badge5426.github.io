@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>你一定要记住一键三连的hexo指令</title>
+      <link href="/posts/f7a5.html"/>
+      <url>/posts/f7a5.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="你一定要记住一键三连的hexo指令"><a href="#你一定要记住一键三连的hexo指令" class="headerlink" title="你一定要记住一键三连的hexo指令"></a>你一定要记住一键三连的hexo指令</h1><p><img src="https://xiafei-picgo.oss-cn-hangzhou.aliyuncs.com/img/yijiansanl.png" alt="img"></p><p>在Zsh（Z shell）或者bash中，如果你想要连续执行多个命令，可以使用分号（<code>;</code>）或者逻辑运算符（如<code>&amp;&amp;</code>或<code>||</code>）来连接它们。这些符号允许你定义命令的执行顺序和条件。</p><p>对于常用的Hexo命令（<code>hexo cl</code>、<code>hexo g</code>、<code>hexo d</code>），它们分别是：</p><ul><li><code>hexo cl</code> 或 <code>hexo clean</code>：清除缓存文件。</li><li><code>hexo g</code> 或 <code>hexo generate</code>：生成静态文件。</li><li><code>hexo d</code> 或 <code>hexo deploy</code>：部署网站。</li></ul><p>如果你想要在Zsh或者bash中连续执行这些命令，可以这样做：</p><ol><li><p><strong>使用分号分隔</strong>：</p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo deploy</span><br></pre></td></tr></table></figure><p>这将依次执行这三个命令，不管每个命令是否成功。</p></li><li><p><strong>使用<code>&amp;&amp;</code>连接</strong>：</p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure><p>这将依次执行命令，但只有前一个命令成功执行（返回状态码为0），后一个命令才会执行。</p></li><li><p><strong>使用<code>||</code>连接</strong>：</p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean || hexo generate || hexo deploy</span><br></pre></td></tr></table></figure><p>这将依次执行命令，但只有前一个命令失败执行（返回状态码非0），后一个命令才会执行。</p></li><li><p><strong>使用<code>&amp;</code>在后台执行</strong>：</p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp; hexo generate &amp; hexo deploy</span><br></pre></td></tr></table></figure><p>这将在后台依次执行这些命令，允许你继续在同一个终端会话中执行其他命令。</p></li><li><p><strong>使用<code>() &#123; ... &#125;</code>组合命令</strong>：</p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">() &#123;</span><br><span class="line">    hexo clean</span><br><span class="line">    hexo generate</span><br><span class="line">    hexo deploy</span><br><span class="line">&#125; &amp; <span class="built_in">wait</span></span><br></pre></td></tr></table></figure><p>这是一个子shell，它会在后台执行这些命令，并且<code>wait</code>命令会等待这些命令执行完成。</p></li></ol><p>选择哪种方式取决于你的具体需求，比如是否需要等待前一个命令完成后再执行下一个命令，或者是否需要在后台执行这些命令。</p><hr><p>在Zsh中，使用分号（<code>;</code>）可以顺序执行多个命令，不管前一个命令是否成功。如果你想要连续执行<code>hexo clean</code>、<code>hexo generate</code>和<code>hexo server</code>这三个命令，可以像下面这样写：</p><figure class="highlight zsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean; hexo generate; hexo server</span><br></pre></td></tr></table></figure><p>这里，<code>hexo clean</code>命令会清除Hexo生成的静态文件和缓存，<code>hexo generate</code>命令会重新生成静态文件，<code>hexo server</code>命令会启动本地服务器，让你可以预览你的网站。</p><p>执行这个命令序列后，Hexo会清除旧的静态文件，生成新的静态文件，并启动本地服务器，通常在<code>http://localhost:4000</code>（除非配置文件中指定了不同的端口）。这样你就可以在浏览器中查看你的网站了。</p><hr><p>在日常的使用中，hexo c;hexo g;hexo s也是常用指令，本地调试会方便很多，在本地调试预览没有问题之后在一键三连！</p><p>你记住了吗！</p><hr><p style="font-size: small; text-align: center;">  &copy; 2024 版权所有。未经允许，禁止转载。<br>  <strong>免责声明：</strong>部分资料和图片来源于网络，如有侵权，请联系删除。<br>  联系方式：微信[xiafeiysbg]</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>群晖nas部署lucky实现反向代理，通过域名外网访问nas应用</title>
       <link href="/posts/de56.html"/>
       <url>/posts/de56.html</url>
